@@ -2,4 +2,5 @@
 // require("./src/warmup/loop01");
 // require("./src/warmup/loop02");
 // require("./src/warmup/secondLargest");
-require("./src/warmup/pattern");
+// require("./src/warmup/pattern");
+require("./src/warmup/countDigit");
