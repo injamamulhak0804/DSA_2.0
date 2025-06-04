@@ -3,4 +3,6 @@
 // require("./src/warmup/loop02");
 // require("./src/warmup/secondLargest");
 // require("./src/warmup/pattern");
-require("./src/warmup/countDigit");
+// require("./src/warmup/countDigit");
+// require("./src/warmup/palindrome");
+require("./src/warmup/reverseInteger");
