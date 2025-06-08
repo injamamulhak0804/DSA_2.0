@@ -6,4 +6,7 @@
 // require("./src/warmup/countDigit");
 // require("./src/warmup/palindrome");
 // require("./src/warmup/reverseInteger");
-require("./src/Array-Level-0/ RemoveDuplicates");
+// require("./src/Array-Level-0/RemoveDuplicates");
+// require("./src/Array-Level-0/Remove_Element");
+// require("./src/Array-Level-0/Reverse_String");
+require("./src/Array-Level-0/Sell_Buy_Stocks");
