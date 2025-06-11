@@ -9,4 +9,6 @@
 // require("./src/Array-Level-0/RemoveDuplicates");
 // require("./src/Array-Level-0/Remove_Element");
 // require("./src/Array-Level-0/Reverse_String");
-require("./src/Array-Level-0/Sell_Buy_Stocks");
+// require("./src/Array-Level-0/Sell_Buy_Stocks");
+// require("./src/Array-Level-0/Merge_Sorted_Array");
+require("./src/Array-Level-0/Move_Zero");
