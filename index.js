@@ -16,4 +16,7 @@
 // require("./src/Array-Level-0/Single_Number");
 // require("./src/Recursion101.js/Print_n_to_1");
 // require("./src/Recursion101.js/Print_1_to_n");
-require("./src/Recursion101.js/Sum_first_n");
+// require("./src/Recursion101.js/Sum_first_n");
+// require("./src/Recursion101.js/Sum_All_Element_arr");
+// require("./src/Recursion101.js/Factorial");
+require("./src/Recursion101.js/Power_Of_Two");
