@@ -20,4 +20,5 @@
 // require("./src/Recursion101.js/Sum_All_Element_arr");
 // require("./src/Recursion101.js/Factorial");
 // require("./src/Recursion101.js/Power_Of_Two");
-require("./src/Search/linear_search");
+// require("./src/Search/linear_search");
+require("./src/Search/binary_search")
