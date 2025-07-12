@@ -23,4 +23,5 @@
 // require("./src/Search/linear_search");
 // require("./src/Search/binary_search")
 // require("./src/Search/bubble_sort")
-require("./src/Search/selection_sort")
+// require("./src/Search/selection_sort")
+require("./src/Search/insertion_sort")
