@@ -52,4 +52,3 @@ function addAtIndexNode(val, idx) {
     this.size++
 }
 
-// test00
