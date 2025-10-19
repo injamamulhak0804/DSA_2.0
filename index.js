@@ -34,4 +34,5 @@
 // require("./src/LinkedList-Level-0/Palindrome")
 // require("./src/LinkedList-Level-0/RemoveNthLinkedList")
 // require("./src/LinkedList-Level-0/OddEven_LinkedList")
+require("./src/Test_oct_18/Array")
 
