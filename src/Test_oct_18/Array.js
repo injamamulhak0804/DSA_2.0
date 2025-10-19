@@ -125,5 +125,96 @@ function MergeSortedArray(arr1, arr2, m, n) {
     }
     return arr1
 }
-console.log(MergeSortedArray([1, 2, 3, 0, 0, 0], [2, 5, 6], 3, 3))
+// console.log(MergeSortedArray([1, 2, 3, 0, 0, 0], [2, 5, 6], 3, 3))
 // console.log(MergeSortedArray([1], [], 1, 0))
+
+function MoveZero(arr) {
+    let n = arr.length;
+    let x = 0;
+    for (let i = 0; i < n; i++) {
+        if (arr[i] == 0) {
+            x = i;
+            break
+        }
+    }
+
+
+
+    for (let i = x + 1; i < n; i++) {
+        if (arr[i] != 0) {
+            let temp = arr[i];
+            arr[i] = arr[x];
+            arr[x] = temp;
+            x++;
+        }
+    }
+
+    return arr
+
+}
+// console.log("Answer: ", MoveZero([1, 2, 0, 4, 5, 0, 6, 7]));
+
+
+function MaxConsecutive(arr) {
+    let level = 1;
+    let maxOnes = 0;
+
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] == 1) {
+            level++
+            maxOnes = Math.max(maxOnes, level)
+        } else {
+            level = 0
+        }
+    }
+
+    return maxOnes
+}
+// console.log(MaxConsecutive([1, 1, 0, 1]));
+
+
+// 1.Brute 
+function MissingNumbers(arr) {
+    let n = arr.length;
+    let sortArr = arr.sort((a, b) => a - b);
+
+    for (let i = 0; i <= n; i++) {
+        if (sortArr[i] != i) return i
+    }
+
+}
+// console.log(MissingNumbers([9, 6, 4, 2, 3, 5, 7, 0, 1]));
+
+
+function MissingNumbers(arr) {
+    let sumArray = 0;
+    let n = arr.length
+    let totalSum = Math.floor(n * (n + 1) / 2)
+
+    for (let i in arr) {
+        sumArray += arr[i]
+    }
+
+    return totalSum - sumArray
+}
+// console.log(MissingNumbers([9, 6, 4, 2, 3, 5, 7, 0, 1]));
+
+function SingleNumber(arr) {
+    let map = {};
+    let n = arr.length;
+
+    for (let i = 0; i < n; i++) {
+        if (map[arr[i]]) {
+            map[arr[i]]++
+        } else {
+            map[arr[i]] = 1
+        }
+    }
+
+
+    for (const i in map) {
+        if (map[i] == 1) return Number(i)
+    }
+
+}
+console.log(SingleNumber([4, 1, 2, 1, 2]));
